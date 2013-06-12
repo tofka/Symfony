@@ -8,3 +8,9 @@ c2847a,::1,GET,http://localhost/symfony/web/app_dev.php/12,1371040238,
 021d70,::1,GET,http://localhost/symfony/web/app_dev.php/12,1371043832,
 dd015d,::1,GET,http://localhost/symfony/web/app_dev.php/,1371043859,
 41b4a2,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371043869,
+17eaeb,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371044540,
+6ebddb,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371044540,
+b83bd2,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371044670,
+16cca2,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371044670,b83bd2
+1c1f9e,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371044769,
+d053c2,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371044769,1c1f9e
