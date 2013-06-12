@@ -110,3 +110,7 @@
 [2013-06-12 15:44:30] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []
 [2013-06-12 15:46:10] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /images/beach.jpg"" at C:\xampp\htdocs\Symfony\app\cache\prod\classes.php line 3597 [] []
 [2013-06-12 15:46:10] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []
+[2013-06-12 15:48:52] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /images/beach.jpg"" at C:\xampp\htdocs\Symfony\app\cache\prod\classes.php line 3597 [] []
+[2013-06-12 15:48:52] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []
+[2013-06-12 15:50:07] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /images/beach.jpg"" at C:\xampp\htdocs\Symfony\app\cache\prod\classes.php line 3597 [] []
+[2013-06-12 15:50:07] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []
