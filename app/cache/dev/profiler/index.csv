@@ -30,3 +30,6 @@ e64baf,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371048890,
 f41189,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371049203,
 19c7f0,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371049203,f41189
 8250cd,::1,GET,http://localhost/symfony/web/app_dev.php/,1371049209,
+563dbe,::1,GET,http://localhost/symfony/web/app_dev.php/,1371049401,
+78ab54,::1,GET,http://localhost/symfony/web/app_dev.php/13,1371049406,
+613d23,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D13%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371049406,78ab54
