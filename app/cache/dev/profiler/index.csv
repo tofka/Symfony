@@ -16,3 +16,8 @@ b83bd2,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371044670,
 d053c2,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371044769,1c1f9e
 cff9e0,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371045007,
 af4231,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371045007,cff9e0
+02b382,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371045304,
+30a416,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371045304,02b382
+418da3,::1,POST,http://localhost/symfony/web/app_dev.php/comment/11,1371045316,
+a9710a,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371045317,
+aaa508,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371045317,a9710a
