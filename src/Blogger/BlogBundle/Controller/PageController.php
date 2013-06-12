@@ -50,5 +50,20 @@ class PageController extends Controller
 	    ));
 	}
 
+	public function sidebarAction()
+	{
+	    $em = $this->getDoctrine()
+	               ->getEntityManager();
+
+	    $tags = $em->getRepository('BloggerBlogBundle:Blog')
+	               ->getTags();
+
+	    $tagWeights = $em->getRepository('BloggerBlogBundle:Blog')
+	                     ->getTagWeights($tags);
+
+	    return $this->render('BloggerBlogBundle:Page:sidebar.html.twig', array(
+	        'tags' => $tagWeights
+	    ));
+	}
 	
 }

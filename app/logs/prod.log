@@ -163,3 +163,7 @@
 [2013-06-12 17:03:22] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []
 [2013-06-12 17:03:26] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /images/misdirection.jpg"" at C:\xampp\htdocs\Symfony\app\cache\prod\classes.php line 3597 [] []
 [2013-06-12 17:03:26] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []
+[2013-06-12 17:15:13] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /images/misdirection.jpg"" at C:\xampp\htdocs\Symfony\app\cache\prod\classes.php line 3597 [] []
+[2013-06-12 17:15:13] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []
+[2013-06-12 17:17:41] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /images/misdirection.jpg"" at C:\xampp\htdocs\Symfony\app\cache\prod\classes.php line 3597 [] []
+[2013-06-12 17:17:41] request.ERROR: Exception thrown when handling an exception (Twig_Error_Loader: The "C:\xampp\htdocs\Symfony\src\Acme\HelloBundle/Resources/views" directory does not exist.) [] []

@@ -33,3 +33,12 @@ f41189,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371049203,
 563dbe,::1,GET,http://localhost/symfony/web/app_dev.php/,1371049401,
 78ab54,::1,GET,http://localhost/symfony/web/app_dev.php/13,1371049406,
 613d23,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D13%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371049406,78ab54
+5f0f8f,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D13%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371050019,
+a31d9d,::1,GET,http://localhost/symfony/web/app_dev.php/13,1371050022,
+1bd06a,::1,GET,http://localhost/symfony/web/app_dev.php/13,1371050022,
+b69e20,::1,GET,http://localhost/symfony/web/app_dev.php/13,1371050113,
+e39c89,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D13%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371050111,b69e20
+0dabd6,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371050113,b69e20
+c382d4,::1,GET,http://localhost/symfony/web/app_dev.php/13,1371050261,
+575ad6,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D13%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371050261,c382d4
+695310,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371050261,c382d4
