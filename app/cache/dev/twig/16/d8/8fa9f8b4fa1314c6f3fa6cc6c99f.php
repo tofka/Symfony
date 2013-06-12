@@ -66,24 +66,28 @@ class __TwigTemplate_16d88fa9f8b4fa1314c6f3fa6cc6c99f extends Twig_Template
             </div>
 
             <footer class=\"meta\">
-                <p>Comments: -</p>
+                <p>Comments: ";
+            // line 19
+            echo twig_escape_filter($this->env, twig_length_filter($this->env, $this->getAttribute((isset($context["blog"]) ? $context["blog"] : $this->getContext($context, "blog")), "comments")), "html", null, true);
+            echo "</p>
                 <p>Posted by <span class=\"highlight\">";
             // line 20
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["blog"]) ? $context["blog"] : $this->getContext($context, "blog")), "author"), "html", null, true);
             echo "</span> at ";
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute((isset($context["blog"]) ? $context["blog"] : $this->getContext($context, "blog")), "created"), "h:iA"), "html", null, true);
             echo "</p>
-                <p>Tags: <span class=\"highlight\">";
+    <p>Tags: <span class=\"highlight\">";
             // line 21
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["blog"]) ? $context["blog"] : $this->getContext($context, "blog")), "tags"), "html", null, true);
             echo "</span></p>
-            </footer>
+</footer>
+
         </article>
     ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 25
+            // line 26
             echo "        <p>There are no blog entries for symblog</p>
     ";
         }
@@ -104,6 +108,6 @@ class __TwigTemplate_16d88fa9f8b4fa1314c6f3fa6cc6c99f extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  87 => 25,  78 => 21,  72 => 20,  64 => 15,  60 => 14,  55 => 12,  47 => 9,  40 => 7,  37 => 6,  31 => 5,  28 => 4,);
+        return array (  91 => 26,  81 => 21,  75 => 20,  71 => 19,  64 => 15,  60 => 14,  55 => 12,  47 => 9,  40 => 7,  37 => 6,  31 => 5,  28 => 4,);
     }
 }

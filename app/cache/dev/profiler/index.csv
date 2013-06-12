@@ -21,3 +21,6 @@ af4231,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=bl
 418da3,::1,POST,http://localhost/symfony/web/app_dev.php/comment/11,1371045316,
 a9710a,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371045317,
 aaa508,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371045317,a9710a
+7a4139,::1,GET,http://localhost/symfony/web/app_dev.php/,1371048039,
+4328ed,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371048041,
+8ad1ae,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371048041,4328ed
