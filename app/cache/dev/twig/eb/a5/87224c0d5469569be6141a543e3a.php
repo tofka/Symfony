@@ -47,7 +47,8 @@ class __TwigTemplate_eba587224c0d5469569be6141a543e3a extends Twig_Template
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 12
         echo "    </p>
-</section>";
+</section>
+";
     }
 
     public function getTemplateName()
@@ -62,6 +63,6 @@ class __TwigTemplate_eba587224c0d5469569be6141a543e3a extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  42 => 10,  27 => 7,  19 => 1,  49 => 12,  46 => 11,  43 => 10,  37 => 6,  32 => 8,  29 => 4,);
+        return array (  49 => 12,  42 => 10,  32 => 8,  27 => 7,  19 => 1,);
     }
 }

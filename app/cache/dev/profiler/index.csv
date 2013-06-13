@@ -44,3 +44,5 @@ c382d4,::1,GET,http://localhost/symfony/web/app_dev.php/13,1371050261,
 695310,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371050261,c382d4
 492af9,::1,GET,http://localhost/symfony/web/app_dev.php/,1371108758,
 aa1a98,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371108757,492af9
+91ec77,::1,GET,http://localhost/symfony/web/app_dev.php/,1371113193,
+4e03b3,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371113193,91ec77
