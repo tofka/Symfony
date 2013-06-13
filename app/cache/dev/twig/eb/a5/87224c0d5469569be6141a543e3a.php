@@ -65,22 +65,18 @@ class __TwigTemplate_eba587224c0d5469569be6141a543e3a extends Twig_Template
             // line 21
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "user"), "html", null, true);
             echo "</span> commented on
-                    <a href=\"";
+                 <a href=\"";
             // line 22
-            echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("BloggerBlogBundle_blog_show", array("id" => $this->getAttribute($this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "blog"), "id"))), "html", null, true);
+            echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("BloggerBlogBundle_blog_show", array("id" => $this->getAttribute($this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "blog"), "id"), "slug" => $this->getAttribute($this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "blog"), "slug"))), "html", null, true);
             echo "#comment-";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "id"), "html", null, true);
             echo "\">
-                        ";
+                ";
             // line 23
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "blog"), "title"), "html", null, true);
-            echo "
-                    </a>
-
-
-                    
+            echo "</a>
                     [<em><time datetime=\"";
-            // line 28
+            // line 24
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "created"), "c"), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, $this->env->getExtension('blogger_blog_extension')->createdAgo($this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "created")), "html", null, true);
@@ -88,7 +84,7 @@ class __TwigTemplate_eba587224c0d5469569be6141a543e3a extends Twig_Template
                 </p>
             </header>
             <p>";
-            // line 31
+            // line 27
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "comment"), "html", null, true);
             echo "</p>
             </p>
@@ -97,14 +93,14 @@ class __TwigTemplate_eba587224c0d5469569be6141a543e3a extends Twig_Template
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 35
+            // line 31
             echo "        <p>There are no recent comments</p>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['comment'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 37
+        // line 33
         echo "</section>
 ";
     }
@@ -121,6 +117,6 @@ class __TwigTemplate_eba587224c0d5469569be6141a543e3a extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  108 => 37,  101 => 35,  84 => 28,  76 => 23,  70 => 22,  66 => 21,  62 => 19,  57 => 18,  49 => 12,  42 => 10,  27 => 7,  19 => 1,  176 => 52,  171 => 47,  168 => 46,  163 => 42,  158 => 39,  150 => 34,  142 => 33,  134 => 26,  130 => 25,  126 => 24,  122 => 22,  119 => 21,  113 => 12,  109 => 10,  106 => 9,  100 => 5,  95 => 53,  93 => 52,  88 => 49,  86 => 46,  81 => 43,  79 => 42,  75 => 40,  73 => 39,  65 => 34,  61 => 33,  56 => 30,  54 => 21,  43 => 14,  34 => 5,  53 => 13,  50 => 12,  41 => 9,  32 => 8,  29 => 4,  92 => 31,  83 => 21,  77 => 20,  71 => 19,  64 => 15,  60 => 14,  55 => 12,  47 => 11,  40 => 7,  37 => 6,  31 => 5,  28 => 1,);
+        return array (  104 => 33,  97 => 31,  88 => 27,  80 => 24,  76 => 23,  70 => 22,  66 => 21,  62 => 19,  57 => 18,  49 => 12,  42 => 10,  32 => 8,  27 => 7,  19 => 1,);
     }
 }

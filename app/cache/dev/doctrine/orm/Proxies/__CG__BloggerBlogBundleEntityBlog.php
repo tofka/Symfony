@@ -64,10 +64,10 @@ class Blog extends \Blogger\BlogBundle\Entity\Blog implements \Doctrine\ORM\Prox
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return array('__isInitialized__', 'id', 'title', 'author', 'blog', 'image', 'tags', 'comments', 'created', 'updated');
+            return array('__isInitialized__', 'id', 'title', 'author', 'blog', 'image', 'tags', 'comments', 'created', 'updated', 'slug');
         }
 
-        return array('__isInitialized__', 'id', 'title', 'author', 'blog', 'image', 'tags', 'comments', 'created', 'updated');
+        return array('__isInitialized__', 'id', 'title', 'author', 'blog', 'image', 'tags', 'comments', 'created', 'updated', 'slug');
     }
 
     /**
@@ -395,6 +395,39 @@ class Blog extends \Blogger\BlogBundle\Entity\Blog implements \Doctrine\ORM\Prox
         $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', array());
 
         return parent::__toString();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSlug($slug)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSlug', array($slug));
+
+        return parent::setSlug($slug);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSlug()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSlug', array());
+
+        return parent::getSlug();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function slugify($text)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'slugify', array($text));
+
+        return parent::slugify($text);
     }
 
 }
