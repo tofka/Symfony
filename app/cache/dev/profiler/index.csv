@@ -56,3 +56,12 @@ c3e1cb,::1,GET,http://localhost/symfony/web/app_dev.php/,1371113539,
 b74d13,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371113577,45eeb7
 7e2fdf,::1,GET,http://localhost/symfony/web/app_dev.php/,1371113601,
 2fc524,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371113601,7e2fdf
+3dfcee,::1,GET,http://localhost/symfony/web/app_dev.php/,1371114082,
+c77920,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371114082,3dfcee
+a5416d,::1,GET,http://localhost/symfony/web/app_dev.php/,1371114153,
+a21675,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371114153,a5416d
+b22dd1,::1,GET,http://localhost/symfony/web/app_dev.php/,1371114163,
+88c97e,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371114162,b22dd1
+5b0dc7,::1,GET,http://localhost/symfony/web/app_dev.php/11,1371114170,
+8d4e75,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D11%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371114170,5b0dc7
+7f6a3a,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371114170,5b0dc7
