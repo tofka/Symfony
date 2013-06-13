@@ -17,8 +17,9 @@ class __TwigTemplate_63e659af5054a21cd737a6e0a43c94e4 extends Twig_Template
     {
         // line 1
         echo "
+
 ";
-        // line 2
+        // line 3
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["comments"]) ? $context["comments"] : $this->getContext($context, "comments")));
         $context['_iterated'] = false;
@@ -36,7 +37,7 @@ class __TwigTemplate_63e659af5054a21cd737a6e0a43c94e4 extends Twig_Template
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["comment"]) {
-            // line 3
+            // line 4
             echo "    <article class=\"comment ";
             echo twig_escape_filter($this->env, twig_cycle(array(0 => "odd", 1 => "even"), $this->getAttribute((isset($context["loop"]) ? $context["loop"] : $this->getContext($context, "loop")), "index0")), "html", null, true);
             echo "\" id=\"comment-";
@@ -44,16 +45,16 @@ class __TwigTemplate_63e659af5054a21cd737a6e0a43c94e4 extends Twig_Template
             echo "\">
         <header>
             <p><span class=\"highlight\">";
-            // line 5
+            // line 6
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "user"), "html", null, true);
             echo "</span> commented <time datetime=\"";
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "created"), "c"), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "created"), "l, F j, Y"), "html", null, true);
+            echo twig_escape_filter($this->env, $this->env->getExtension('blogger_blog_extension')->createdAgo($this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "created")), "html", null, true);
             echo "</time></p>
         </header>
         <p>";
-            // line 7
+            // line 8
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "comment"), "html", null, true);
             echo "</p>
     </article>
@@ -69,7 +70,7 @@ class __TwigTemplate_63e659af5054a21cd737a6e0a43c94e4 extends Twig_Template
             }
         }
         if (!$context['_iterated']) {
-            // line 10
+            // line 11
             echo "    <p>There are no comments for this post. Be the first to comment...</p>
 ";
         }
@@ -90,6 +91,6 @@ class __TwigTemplate_63e659af5054a21cd737a6e0a43c94e4 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  57 => 7,  40 => 3,  22 => 2,  19 => 1,  73 => 10,  71 => 22,  60 => 14,  53 => 12,  48 => 5,  42 => 9,  38 => 7,  35 => 6,  29 => 4,);
+        return array (  74 => 11,  58 => 8,  49 => 6,  41 => 4,  23 => 3,  19 => 1,  80 => 26,  76 => 24,  73 => 23,  71 => 22,  60 => 14,  53 => 12,  48 => 10,  42 => 9,  38 => 7,  35 => 6,  29 => 4,);
     }
 }
