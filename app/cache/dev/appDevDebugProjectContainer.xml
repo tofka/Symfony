@@ -43,6 +43,7 @@
     <parameter key="secret">98708a147b103f2104cf63e19c0f0b563</parameter>
     <parameter key="database_path">null</parameter>
     <parameter key="blogger_blog.emails.contact_email">contact@email.com</parameter>
+    <parameter key="blogger_blog.comments.latest_comment_limit">10</parameter>
     <parameter key="controller_resolver.class">Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver</parameter>
     <parameter key="controller_name_converter.class">Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser</parameter>
     <parameter key="response_listener.class">Symfony\Component\HttpKernel\EventListener\ResponseListener</parameter>
@@ -485,8 +486,8 @@
     <parameter key="jms_di_extra.disable_grep">false</parameter>
     <parameter key="jms_di_extra.doctrine_integration">true</parameter>
     <parameter key="jms_di_extra.cache_warmer.controller_file_blacklist" type="collection"/>
-    <parameter key="jms_di_extra.doctrine_integration.entity_manager.file">C:/xampp/htdocs/Symfony/app/cache/dev/jms_diextra/doctrine/EntityManager_51b986db75192.php</parameter>
-    <parameter key="jms_di_extra.doctrine_integration.entity_manager.class">EntityManager51b986db75192_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager</parameter>
+    <parameter key="jms_di_extra.doctrine_integration.entity_manager.file">C:/xampp/htdocs/Symfony/app/cache/dev/jms_diextra/doctrine/EntityManager_51b98866888e4.php</parameter>
+    <parameter key="jms_di_extra.doctrine_integration.entity_manager.class">EntityManager51b98866888e4_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager</parameter>
     <parameter key="security.secured_services" type="collection"/>
     <parameter key="security.access.method_interceptor.class">JMS\SecurityExtraBundle\Security\Authorization\Interception\MethodSecurityInterceptor</parameter>
     <parameter key="security.access.method_access_control" type="collection"/>
@@ -2268,8 +2269,8 @@
       <argument type="collection"/>
       <argument type="collection"/>
     </service>
-    <service id="doctrine.orm.default_entity_manager" class="EntityManager51b986db75192_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager">
-      <file>C:/xampp/htdocs/Symfony/app/cache/dev/jms_diextra/doctrine/EntityManager_51b986db75192.php</file>
+    <service id="doctrine.orm.default_entity_manager" class="EntityManager51b98866888e4_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager">
+      <file>C:/xampp/htdocs/Symfony/app/cache/dev/jms_diextra/doctrine/EntityManager_51b98866888e4.php</file>
       <argument type="service">
         <service class="Doctrine\ORM\EntityManager" factory-method="create" public="false">
           <argument type="service" id="doctrine.dbal.default_connection"/>
