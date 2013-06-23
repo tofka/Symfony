@@ -5,11 +5,12 @@
     {{ parent () }}
 
     {% stylesheets
-        '@BloggerBlogBundle/Resources/public/css/*'
-        debug=false
-    %}
-        <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
-    {% endstylesheets %}
+    '@BloggerBlogBundle/Resources/public/css/*'
+    output='css/blogger.css'
+    filter='?yui_css'
+%}
+    <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
+{% endstylesheets %}
 {% endblock %}
 
 
