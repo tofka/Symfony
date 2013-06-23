@@ -46,7 +46,7 @@ class __TwigTemplate_929eaeee1ee9ceb751ef455cdf106584 extends Twig_Template
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['e'], $context['_parent'], $context['loop']);
-        $context = array_merge($_parent, array_intersect_key($context, $_parent));
+        $context = array_intersect_key($context, $_parent) + $_parent;
         // line 9
         echo "</error>
 ";

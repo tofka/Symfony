@@ -45,7 +45,7 @@ class __TwigTemplate_b555bd61da30d5fdafef5e09f68fc7fe extends Twig_Template
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['i'], $context['e'], $context['_parent'], $context['loop']);
-        $context = array_merge($_parent, array_intersect_key($context, $_parent));
+        $context = array_intersect_key($context, $_parent) + $_parent;
     }
 
     public function getTemplateName()

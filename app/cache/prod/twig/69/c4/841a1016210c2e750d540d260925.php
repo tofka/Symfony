@@ -130,13 +130,13 @@ class __TwigTemplate_69c4841a1016210c2e750d540d260925 extends Twig_Template
                 }
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['header'], $context['_parent'], $context['loop']);
-                $context = array_merge($_parent, array_intersect_key($context, $_parent));
+                $context = array_intersect_key($context, $_parent) + $_parent;
                 // line 47
                 echo "
             <p>
                 <pre>";
                 // line 50
-                if ($this->getAttribute((isset($context["message"]) ? $context["message"] : null), "charset")) {
+                if (($this->getAttribute((isset($context["messagePart"]) ? $context["messagePart"] : null), "charset", array(), "any", true, true) && $this->getAttribute((isset($context["message"]) ? $context["message"] : null), "charset"))) {
                     // line 51
                     echo twig_escape_filter($this->env, twig_convert_encoding(twig_escape_filter($this->env, $this->getAttribute((isset($context["message"]) ? $context["message"] : null), "body"), "html", $this->getAttribute((isset($context["message"]) ? $context["message"] : null), "charset")), "UTF-8", $this->getAttribute((isset($context["message"]) ? $context["message"] : null), "charset")), "html", null, true);
                 } else {
@@ -172,13 +172,13 @@ class __TwigTemplate_69c4841a1016210c2e750d540d260925 extends Twig_Template
                 }
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['messagePart'], $context['_parent'], $context['loop']);
-                $context = array_merge($_parent, array_intersect_key($context, $_parent));
+                $context = array_intersect_key($context, $_parent) + $_parent;
                 // line 69
                 echo "        ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['i'], $context['message'], $context['_parent'], $context['loop']);
-            $context = array_merge($_parent, array_intersect_key($context, $_parent));
+            $context = array_intersect_key($context, $_parent) + $_parent;
             // line 70
             echo "    ";
         }
