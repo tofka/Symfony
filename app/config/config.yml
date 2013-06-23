@@ -28,6 +28,7 @@ twig:
 
 # Assetic Configuration
 assetic:
+    bundles:    [BloggerBlogBundle]
     debug:          %kernel.debug%
     use_controller: false
     bundles:        [ ]

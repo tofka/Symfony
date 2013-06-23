@@ -78,3 +78,14 @@ d8364f,::1,GET,http://localhost/symfony/web/app_dev.php/,1371117487,
 b761f4,::1,GET,http://localhost/symfony/web/app_dev.php/16/a-day-with-symfony2,1371118244,
 4281af,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D16%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371118244,b761f4
 9c5783,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371118244,b761f4
+b8f789,::1,GET,http://localhost/symfony/web/app_dev.php/,1371978780,
+d539f4,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371978780,b8f789
+cdf483,::1,GET,http://localhost/symfony/web/app_dev.php/17/the-pool-on-the-roof-must-have-a-leak,1371978816,
+c8ed4d,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=blog_id%3D17%26_format%3Dhtml%26_controller%3DBloggerBlogBundle%253AComment%253Anew,1371978816,cdf483
+18e21a,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371978816,cdf483
+dcc62c,::1,GET,http://localhost/symfony/web/app_dev.php/,1371979034,
+e93f33,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371979034,dcc62c
+d0dedf,::1,GET,http://localhost/symfony/web/app_dev.php/,1371979435,
+ae3bb5,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371979435,d0dedf
+237c59,::1,GET,http://localhost/symfony/web/app_dev.php/,1371979489,
+306ab3,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_controller%3DBloggerBlogBundle%253APage%253Asidebar,1371979489,237c59
